@@ -1,0 +1,235 @@
+
+body{
+  background-color: #ececec;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+}
+
+nav {
+  position: relative;
+  height: 70px;
+  width: 100% ;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.LEFT {
+  float: left;
+  display: inline;
+  position: absolute;
+}
+.left i {
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  margin: 0 auto;
+}
+
+.LIQUID{
+  font-family: 'Grand Hotel', cursive;
+  position: absolute;
+  left: 80px;
+  top: 0px;
+}
+.right {
+  float: right;
+  position: absolute;
+  top: 10;
+  right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+
+}
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+}
+header {
+  position: relative;
+  top: 50px;
+  left: 0%;
+  text-align: center;
+}
+nav li a:hover {
+    color: white;
+}
+
+
+.andrew {
+  color: #e16780;
+}
+
+header img {
+  position: relative;
+  width: 80%;
+  height: 300px;
+  border-radius: 13px;
+  margin-top: 50px;
+  z-index: 0;
+}
+
+.tile h2, .tile2 h2 {
+    font-family: 'Grand Hotel', cursive;
+    color: #e16780;
+}
+
+.TILES {
+    color: #7e8287;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.tile {
+  text-align: center;
+  margin: 4% 0;
+  padding: 0% 4%;
+  width: 35%;
+  display: inline-block;
+  color: grey;
+}
+
+.largetiles {
+  color: #7e8287;
+  margin: 0 auto;
+  width: 100%;
+  position:relative;
+  text-align: center;
+  padding: 0px 0px;
+  padding-top: 50px;
+}
+
+.largetile{
+  text-align: center;
+  margin: 4% 0;
+  padding: 0% 4%;
+  width: 100px;
+  height: 100px;
+  display:inline-grid;
+  color: grey;
+
+}
+
+.largetile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+}
+
+.text h3 {
+  font-size: 16px;
+  top: 10px;
+  margin-top: -39px;
+  color: black;
+  text-align: left;
+  background-color: white;
+  padding-left: 10px;
+
+
+}
+.text p {
+  font-size: 14px;
+  color: #e16780;
+  margin-top: -19px;
+  text-align: left;
+  border-radius: 4px;
+  background-color: white;
+  height: 22px;
+  padding-left: 10px;
+}
+
+.text {
+  display: block;
+}
+
+#HASH {
+  font-family: 'Grand Hotel', cursive;
+  color: #e16780;
+  font-size: 24px;
+}
+
+input {
+  display: inline-block;
+  position: relative;
+  color: #2d2d2d;
+  width: 300px;
+  height: 20px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  background-color: #ececec;
+  border-style: none;
+  text-align: left;
+
+}
+textarea {
+  vertical-align: top;
+  background-color: #ececec;
+  text-align: top;
+  width: 297px;
+  border-radius: 2px;
+}
+.lowleft {
+  float: left;
+
+}
+.lowright {
+  float: right;
+}
+
+.lowleft h3 {
+  font-family: 'Grand Hotel', cursive;
+  color: #e16780;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+footer {
+  background-color: #2d2d2d;
+  height: 300px;
+}
+
+.lowright ul {
+  background-color: #2d2d2d;
+  display: inline;
+  list-style-type: none;
+}
+
+.lowright ul li {
+    padding-top: 110px;
+    float: left;
+    padding-left: 40px;
+
+}
+.lowright ul li i {
+  background-color: #e16780;
+  border-radius: 50%;
+  border: 1x solid grey;
+  padding:15px;
+  color: #2d2d2d;
+}
+.lowleft {
+  padding-left: 25px;
+}
+
+footer button {
+  background-color: #2d2d2d;
+  border: none;
+  color: #b6bcb3;
+  text-align: left;
+  margin: 0 auto;
+  vertical-align: middle;
+}
